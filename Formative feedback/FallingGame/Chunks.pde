@@ -5,7 +5,7 @@ class DrawChunk extends Actor
   DrawChunk()
   {
     super("Chunks.obj", false);  
-    m_sizeZ = 120;
+    m_sizeZ = 240;
   }
 
   // PSHAPE REFERECNE means only one PSHAPE is created and therefore buffered.
